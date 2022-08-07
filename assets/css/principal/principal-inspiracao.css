@@ -1,0 +1,28 @@
+.principal__inspiracao{
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.principal__inspiracao___container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.principal__inspiracao___card{
+    color: #FFFFFF;
+    background-color: #203047;
+    width: 556px;
+    height: 130px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.principal__inspiracao___card p:first-child{
+    margin-bottom: 10px;
+}
+
+.principal__inspiracao___card p:last-child{
+    font-size: 14px;
+}

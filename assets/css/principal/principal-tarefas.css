@@ -1,0 +1,68 @@
+.principal__tarefas{
+    margin-top: 40px;
+}
+
+.principal__tarefas___formulario{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.principal__tarefas___formulario input{
+    border-radius: 4px;
+    width: 88%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+.principal__tarefas___formulario button{
+    border-radius: 4px;
+    background-color: #f5d01f;
+    width: 10%;
+    font-size: 13px;
+}
+
+.principal__tarefas___formulario button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .20);
+    transition: ease-in-out .3s;
+}
+
+.principal__tarefas___lista{
+    margin-top: 20px;
+    width: 1160px;
+}
+
+.principal__tarefas___item{
+    width: 100%px;
+    border: 1px solid #fff;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+}
+
+.principal__tarefas___item input{
+    margin-right: 10px;
+    width: 1rem;
+    height: 1rem;
+}
+
+.principal__tarefas___item span{
+    display: inline-block;
+}
+.principal__tarefas___item button{
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    font-size: .7rem;
+    padding: 4px 7px;
+    cursor: pointer;
+    margin-left: auto
+}
+
+.concluida{
+    text-decoration: line-through;
+}
