@@ -1,12 +1,18 @@
 body {
-    background-color: #e7e7e7;
-    font-family: 'Poppins', sans-serif;
+  background-color: #e7e7e7;
+  font-family: "Poppins", sans-serif;
 }
 
-h2{
-    font-size: 24px;
+h2 {
+  font-size: 24px;
 }
 
-strong{
-    font-weight: bold;
+strong {
+  font-weight: bold;
+}
+
+@media (max-width: 425px) {
+  body {
+    width: 100%;
+  }
 }

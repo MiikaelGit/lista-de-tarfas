@@ -1,28 +1,48 @@
-.principal__inspiracao{
-    margin-top: 40px;
-    font-weight: 500;
+.principal__inspiracao {
+  margin-top: 40px;
+  font-weight: 500;
 }
 
-.principal__inspiracao___container{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+.principal__inspiracao___container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
-.principal__inspiracao___card{
-    color: #FFFFFF;
-    background-color: #203047;
-    width: 556px;
-    height: 130px;
-    border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
+.principal__inspiracao___card {
+  color: #ffffff;
+  background-color: #203047;
+  width: 556px;
+  height: 130px;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.principal__inspiracao___card p:first-child{
-    margin-bottom: 10px;
+.principal__inspiracao___card p:first-child {
+  margin-bottom: 10px;
 }
 
-.principal__inspiracao___card p:last-child{
-    font-size: 14px;
+.principal__inspiracao___card p:last-child {
+  font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+  .principal__inspiracao {
+    width: 100vw;
+  }
+  .principal__inspiracao___container {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .principal__inspiracao___card {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 426px) {
+  .principal__inspiracao h2 {
+    text-align: center;
+  }
 }
