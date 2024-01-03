@@ -45,4 +45,7 @@
   .principal__inspiracao h2 {
     text-align: center;
   }
+  .principal__inspiracao___card p {
+    font-size: 0.7rem;
+  }
 }

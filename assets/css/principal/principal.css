@@ -1,9 +1,10 @@
 .principal {
-  width: 1160px;
   margin: 0 auto;
+  padding: 0 10rem;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 1024px) {
   .principal {
-    width: 100vw;
+    padding: 0;
   }
 }
