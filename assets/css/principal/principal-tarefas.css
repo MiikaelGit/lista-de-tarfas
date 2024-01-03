@@ -145,6 +145,9 @@
   }
 }
 @media (max-width: 321px) {
+  .principal__tarefas___item span {
+    font-size: 1.5rem;
+  }
   .principal__tarefas___formulario button {
     font-size: 1.5rem;
   }

@@ -46,6 +46,17 @@
     text-align: center;
   }
   .principal__inspiracao___card p {
+    font-size: 0.9rem;
+  }
+  .principal__inspiracao___card p:last-child {
     font-size: 0.7rem;
+  }
+}
+@media (max-width: 320px) {
+  .principal__inspiracao___card p {
+    font-size: 0.8rem;
+  }
+  .principal__inspiracao___card p:last-child {
+    font-size: 0.6rem;
   }
 }
